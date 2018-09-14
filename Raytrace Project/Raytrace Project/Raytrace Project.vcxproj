@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Direction.cpp" />
     <ClCompile Include="firstfile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Direction.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -79,7 +83,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\git\Tncg15\TNCG15\Raytrace Project\Raytrace Project\glm</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>glm</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
